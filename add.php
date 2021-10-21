@@ -11,6 +11,6 @@
 include_once("connec.php");
 ?>
 <body>
-    <h1> This is image! </h1>
+    <h1> This is information! </h1>
 </body>
 </html>
