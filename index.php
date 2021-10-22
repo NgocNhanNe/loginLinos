@@ -7,10 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-     $res1 = pg_query($conn,"SELECT id FROM infor ") or 
-     die(pg_error($conn));
-    ?>
-    <h1>hii </h1>
+    <h1>hii</h1>
 </body>
 </html>
