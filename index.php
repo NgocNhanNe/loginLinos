@@ -9,7 +9,8 @@
 <body>
     <?php
     include_once("connec.php");
-    $name=pg_query($conn,"SELECT name from infor where id=p01") 
+    $name=pg_query($conn,"SELECT name from infor where id=p01") or 
+    die(pg_error($conn));
     echo $name;
     ?>
 </body>
